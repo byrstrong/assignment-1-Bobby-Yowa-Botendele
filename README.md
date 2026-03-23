@@ -13,6 +13,9 @@ TCP 6443 for secure (HTTPS) communication by Kubernetes API server; TCP 2379-238
 TCP 10250 for communication between Kubernetes API server and kubelet running on each node; TCP 30000-32767 for NodePort to expose applications externally;
 UDP 8472 for Flannel VXLAN to allow nodes to communicate accrodd a virtual Layer 2 over a Layer 3 infractructure.
 
+<img width="2560" height="1440" alt="security group" src="https://github.com/user-attachments/assets/d2f5c29d-db37-4093-8e0c-bbaeb6b5d62e" />
+
+
 # 1.a.2. Hostname, Private IPS and Publc IPS
 
 | Hostname | Private IP | Public IP |
